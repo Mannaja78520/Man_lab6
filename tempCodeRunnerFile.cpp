@@ -8,8 +8,8 @@ int main(){
     cout << "Enter an integer: ";
     cin >> num;
     
-    Odd =  (num % 2 == 1) ? Odd + 1 : Odd;
-    Even = (num % 2 == 0 && num != 0) ? Even + 1 : Even;
+    Odd =  (num % 2 == 1 && num != 0) ? Odd + 1 : Odd;
+    Even = (num % 2 == 0) ? Even + 1 : Even;
     }
 
     cout << "#Even numbers = "<< Even <<"\n";
